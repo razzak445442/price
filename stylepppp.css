@@ -1,0 +1,132 @@
+.dam{
+	height:70vh;
+	width:50%;
+	margin: 6vw 25vw;
+	background-color: ;
+	box-shadow: 5px 5px 5px dimgray
+	,-5px -5px 10px white;
+}
+
+.in{
+	margin:5vh 13vw;
+	height: 40px;
+	width: 50%;
+	border-style: none;
+	text-align: center;
+	
+
+}
+
+.in1{
+	margin:5vh 13vw;
+	height: 40px;
+	width: 50%;
+	text-align: center;
+	border-style: none;
+	background-color: #E8E4C9;
+	box-shadow: inset 5px 5px 10px dimgray
+	, inset -5px -5px 5px white
+
+
+}
+
+.in2{
+	margin:5vh 13vw;
+	height: 40px;
+	width: 50%;
+	text-align: center;
+	border-style: none;
+	background-color: #E8E4C9;
+	box-shadow: inset 5px 5px 10px dimgray
+	, inset -5px -5px 5px white
+
+}
+.in3{
+	margin:5vh 13vw;
+	height: 35px;
+	width: 50%;
+	border-style: none;
+	background-color: #E8E4C9;
+	box-shadow:5px 5px 10px dimgray
+	,-5px -5px 5px white;
+
+	color: rgb(212, 17, 17);
+}
+
+.in3:hover{
+	margin:1px 250px;
+	width: 300px;
+	background-color: aqua;
+	
+}
+
+
+
+/* mediaquri  */
+@media(max-width:870px){
+	.dam{
+	
+		width:50%;
+		margin: 6vw 23.vw;
+		
+		
+	}
+}
+
+@media(max-width:700px){
+	.dam{
+	
+		width:50%;
+		margin: 6vw 23.vw;
+		
+		
+	}
+	.dam>input:nth-child(n){
+		width:70%;
+		margin-left:15%;
+	}
+}
+
+@media(max-width:635px){
+	.dam{
+	
+		width:70%;
+		margin: 6vw 15vw;
+		
+		
+	}
+	.dam>input:nth-child(n){
+		width:70%;
+		margin-left:15%;
+	}
+}
+
+
+@media(max-width:472px){
+	.dam{
+	
+		width:80%;
+		margin: 6vw 10vw;
+		
+	}
+	.dam>input:nth-child(n){
+		width:70%;
+		margin-left:15%;
+	}
+}
+
+@media(max-width:357px){
+	.dam{
+	
+		width:90%;
+		margin: 6vw 5vw;
+		
+		
+	}
+	.dam>input:nth-child(n){
+		width:80%;
+		margin-left:10%;
+	}
+}
+
+
